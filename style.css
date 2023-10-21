@@ -1,0 +1,154 @@
+@font-face {
+  font-family: happymonkey;
+  src: url(happymonkey/HappyMonkey-Regular.ttf);
+}
+
+body {
+  text-align: center;
+  background-color: ff8500;
+  font-size: 25px;
+  color: ffffff;
+  background: linear-gradient(#a2d2ff, #efb0c9);
+}
+
+#greet {
+  font-family: happymonkey;
+}
+
+#bday-age {
+  font-family: happymonkey;
+  text-shadow: 0px 0px 1px black;
+  background-color: 4d908e;
+  color: #fafaf9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#bday-date {
+  margin: 0;
+  font-family: happymonkey;
+  text-shadow: 0px 0px 1px black;
+  background-color: 4d908e;
+  color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#p1 {
+  width: 500px;
+  border-radius: 50%;
+  border: 7px solid #4d908e;
+}
+
+#p2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gift1 {
+  margin: 0;
+  font-family: happymonkey;
+  text-shadow: 0px 0px 5px black;
+}
+
+#im1 {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid white;
+  /* background: linear-gradient(lightskyblue, white); */
+  background-image: url("images/g1.jpg");
+  background-size: cover;
+}
+
+#hove0 {
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+}
+
+#hove1 {
+  margin-bottom: 50px;
+}
+
+#im1:hover {
+  background-image: url("images/harold3.jpg");
+}
+
+#gift2 {
+  margin: 0;
+  font-family: happymonkey;
+  text-shadow: 0px 0px 5px black;
+}
+
+#im2 {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid white;
+  background-image: url("images/g1.jpg");
+  background-size: cover;
+}
+
+#im2:hover {
+  background-image: url("images/harold4.webp");
+}
+
+#gift3 {
+  margin: 0;
+  font-family: happymonkey;
+  text-shadow: 0px 0px 5px black;
+}
+
+#im3 {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid white;
+  background-image: url("images/g1.jpg");
+  background-size: cover;
+}
+
+#im3:hover {
+  background-image: url("images/hr3.jpg");
+}
+
+#gift4 {
+  margin: 0;
+  font-family: happymonkey;
+  text-shadow: 0px 0px 5px black;
+}
+
+#im4 {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid white;
+  background-image: url("images/g1.jpg");
+  background-size: cover;
+}
+
+#im4:hover {
+  background-image: url("images/h2r.jpg");
+}
+
+#sp1 {
+  src: url("https://scrimba.com/learn/htmlandcss");
+}
+
+#footer {
+  width: 400px;
+  margin: 30px auto 20px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
